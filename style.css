@@ -10,9 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   height: 100vh;
-  background: linear-gradient(90deg, slategray, darkslategray);
+ background: linear-gradient(90deg, rgb(87, 171, 255), rgb(110, 125, 139));
 }
 h1 {
   font-family: "Handjet", cursive;
@@ -135,6 +134,7 @@ button:hover {
     font-size: 2.5rem;
   }
   .score {
-    font-size: 1rem;
+    font-size: 12px;
+    font-weight: 900;
   }
 }
